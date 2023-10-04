@@ -22,7 +22,6 @@ public class AntBehaviour : MonoBehaviour {
 	float suspenseStartTime;
 	public float movementDurationSeconds = 1.0f;
 
-	public int test;
 	// Use this for initialization
 	void Start () {
 		//grab the grid maker
