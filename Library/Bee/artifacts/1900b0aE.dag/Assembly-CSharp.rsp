@@ -376,6 +376,7 @@
 "Assets/Scripts/GridMaker.cs"
 "Assets/Scripts/InGameGUI.cs"
 "Assets/Scripts/OpeningScreenGUI.cs"
+"Assets/Scripts/Wolf.cs"
 -langversion:9.0
 
 /deterministic

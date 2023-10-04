@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F3791D30-30E3-D9FC-A0AF-DEA26EF5C7F8}</ProjectGuid>
+    <ProjectGuid>{E804B281-6C9B-690D-C4C1-B5858538C6F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,6 +53,7 @@
     <UnityVersion>2022.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Wolf.cs" />
     <Compile Include="Assets\Scripts\InGameGUI.cs" />
     <Compile Include="Assets\Scripts\AntBehaviour.cs" />
     <Compile Include="Assets\Scripts\OpeningScreenGUI.cs" />
