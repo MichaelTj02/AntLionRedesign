@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638320816879307159
-    m_Hash: 2701604500
+      ticks: 638321354879374017
+    m_Hash: 2420725418
   m_LockFileStatus:
     m_FilePath: C:/Users/daria/OneDrive/Desktop/IAT312/AntLionRedesign/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638320816879345974
-    m_Hash: 3662081493
+      ticks: 638321354879374017
+    m_Hash: 1620783144
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
