@@ -3,10 +3,10 @@ using System.Collections;
 
 public class GridMaker : MonoBehaviour {
 
-	public int gridSizeHorizontal = 5;
-	public int gridSizeVertical = 5;
-	public float gridCellWidth = 64.0f;
-	public float gridCellHeight = 64.0f;
+	public int gridSizeHorizontal = 8;
+	public int gridSizeVertical = 8;
+	public float gridCellWidth = 50.0f;
+	public float gridCellHeight = 50.0f;
 
 	public GameObject cell;
 	

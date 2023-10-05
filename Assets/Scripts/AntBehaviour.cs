@@ -162,13 +162,13 @@ public class AntBehaviour : MonoBehaviour {
 		}
 		transform.position = GridPosToVector3(antPos) + movement;
 
-		Camera cam = cameraObject.GetComponent<Camera>();
-		Bounds sandBounds = sand.GetComponent<SpriteRenderer>().bounds;
-		float camx = Mathf.Max (sandBounds.min.x + cam.orthographicSize*cam.aspect,transform.position.x + antBounds.extents.x);
-		camx = Mathf.Min (sandBounds.max.x - cam.orthographicSize*cam.aspect, camx);
-		float camy = Mathf.Max (sandBounds.min.y + cam.orthographicSize, transform.position.y - 1.0f + antBounds.extents.y);
-		camy = Mathf.Min (sandBounds.max.y - cam.orthographicSize, camy);
-		cameraObject.transform.position = new Vector3(camx, camy, cameraObject.transform.position.z);
+		//Camera cam = cameraObject.GetComponent<Camera>();
+		//Bounds sandBounds = sand.GetComponent<SpriteRenderer>().bounds;
+		//float camx = Mathf.Max (sandBounds.min.x + cam.orthographicSize*cam.aspect,transform.position.x + antBounds.extents.x);
+		//camx = Mathf.Min (sandBounds.max.x - cam.orthographicSize*cam.aspect, camx);
+		//float camy = Mathf.Max (sandBounds.min.y + cam.orthographicSize, transform.position.y - 1.0f + antBounds.extents.y);
+		//camy = Mathf.Min (sandBounds.max.y - cam.orthographicSize, camy);
+		//cameraObject.transform.position = new Vector3(camx, camy, cameraObject.transform.position.z);
 
 	}
 	
