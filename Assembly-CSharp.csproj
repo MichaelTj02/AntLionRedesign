@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\OpeningScreenGUI.cs" />
     <Compile Include="Assets\Scripts\GlobalState.cs" />
     <Compile Include="Assets\Scripts\CamFollow.cs" />
+    <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Wolf.cs" />
     <Compile Include="Assets\Scripts\InGameGUI.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
