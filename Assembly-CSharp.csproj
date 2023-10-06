@@ -53,6 +53,7 @@
     <UnityVersion>2022.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\SwordAttack.cs" />
     <Compile Include="Assets\Scripts\AntBehaviour.cs" />
     <Compile Include="Assets\Scripts\OpeningScreenGUI.cs" />
     <Compile Include="Assets\Scripts\GlobalState.cs" />

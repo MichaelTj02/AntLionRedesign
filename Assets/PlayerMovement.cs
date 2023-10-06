@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool canMove = true;
 
+    public SwordAttack swordAttack;
+
 
     // Start is called before the first frame update
     void Start()
@@ -53,10 +55,12 @@ public class PlayerMovement : MonoBehaviour
             if (movementInput.x < 0)
             {
                 spriterenderer.flipX = true;
+                //swordAttack.attackDirection = SwordAttack.AttackDirection.left;
             }
             else if (movementInput.x > 0)
             {
                 spriterenderer.flipX = false;
+                //swordAttack.attackDirection = SwordAttack.AttackDirection.right;
             }
         }
     }
@@ -89,15 +93,32 @@ public class PlayerMovement : MonoBehaviour
     void OnFire()
     {
         animator.SetTrigger("swordAttack");
+        
+    }
+
+    public void SwingAttack()
+    {
+        lockMovement();
+        if(spriterenderer.flipX == true)
+        {
+            swordAttack.attackLeft();
+        }
+        else
+        {
+            swordAttack.attackRight();
+        }
+
     }
 
     void lockMovement()
     {
         canMove = false;
+        //swordAttack.Attack();
     }
 
     void unlockMovement()
     {
+        swordAttack.StopAttack();
         canMove = true;
     }
 }

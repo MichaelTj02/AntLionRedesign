@@ -384,6 +384,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerControls.cs"
 "Assets/Scripts/Wolf.cs"
+"Assets/SwordAttack.cs"
 -langversion:9.0
 
 /deterministic
